@@ -28,7 +28,7 @@ end
 
 pause(1);
 
-A = dir(fullfile(path,'*.png'));% change to your image style which you want to change, the default of this program is dicom type
+A = dir(fullfile(path,'*.png'));% change to your image style which you want to change, the default of this program is png type
 
 if isequal(isempty(A),1)
    disp('Not contain any files');
