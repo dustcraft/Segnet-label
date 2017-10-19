@@ -105,16 +105,6 @@ for k = 1 : ConvertFrameNum
 
     %figure; % uncomment this line to show image
     %imshow(res,[]); % uncomment this line to show image
-
-    % decode & encode part uses to convert images format, but it does not work for Segnet label
-    % Decode
-    % 以8位形式将X矩阵R通道与G通道（进行左移8位运算后，返回向左移位k字节，相当于乘以2^k）逐位或运算
-    %annotation = bitor(annotation, bitshift(X(:, :, 2), 8));
-    %annotation = bitor(annotation, bitshift(X(:, :, 3), 16));
-    % 最后输出矩阵为24位，单值矩阵
-
-    % Encode an index map
-    %Y = cat(3, bitand(annotation, 255),bitand(bitshift(annotation, -8), 255),bitand(bitshift(annotation, -16), 255));
     
     % save images
     resultFile = fullfile(savepath,N{k});
