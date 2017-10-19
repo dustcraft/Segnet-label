@@ -28,7 +28,6 @@ end
 
 pause(1);
 
-% the inputs must be png format
 A = dir(fullfile(path,'*.png'));% change to your image style which you want to change, the default of this program is dicom type
 
 if isequal(isempty(A),1)
