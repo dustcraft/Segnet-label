@@ -1,5 +1,5 @@
 # Segnet-label
-These three files could help you to make your own mask files & list for SegNet (https://github.com/alexgkendall/caffe-segnet).
+These three files could help you to make your own mask files & list for SegNet (https://github.com/TimoSaemann/caffe-segnet-cudnn5).
 
 Handbook was written in Chinese and was translated into English partly. The English edition will come in the future.
 
